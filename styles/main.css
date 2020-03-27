@@ -8,3 +8,21 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+.grid-container {
+    margin-top: 3rem;
+    padding: 2rem 12.5rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main-content {
+    margin-right: 1rem;
+}
+
+.sidebar {
+    position: fixed;
+    background-color: white;
+    right: 12.5rem;
+    width: 20rem;
+}

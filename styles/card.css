@@ -30,6 +30,10 @@
     font-weight: bold;
 }
 
+.card-body .content {
+    margin-right: 1.5rem;
+}
+
 .card-body .content, .comments {
     margin-left: 1.5rem;
 }

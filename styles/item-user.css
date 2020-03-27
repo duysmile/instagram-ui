@@ -6,6 +6,11 @@
     display: block;
 }
 
+.avatar.large {
+    width: 3rem;
+    height: 3rem;
+}
+
 .avatar img {
     width: 100%;
     height: 100%;
@@ -22,6 +27,20 @@
 }
 
 .item-user .username {
-    margin-left: 0.5rem;
     font-weight: bold;
+}
+
+.item-user .info-user {
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-user .status, .time-story {
+    color: #888;
+}
+
+.item-user .time-story {
+    text-transform: uppercase;
 }

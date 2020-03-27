@@ -1,0 +1,78 @@
+.card {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0.75rem;
+}
+
+.card-body img {
+    width: 100%;
+}
+
+.card-body .actions {
+    margin: 0.5rem 0.75rem;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.card-body .reaction a {
+    margin-right: 0.5rem;
+}
+
+.card-body .likes {
+    margin-left: 0.75rem;
+    font-weight: bold;
+}
+
+.card-body .content, .comments {
+    margin-left: 1.5rem;
+}
+
+.card-body .content, .comment, .time {
+    margin-bottom: 0.5rem;
+}
+
+.card-body .time {
+    color: #888;
+    font-size: 0.65rem;
+    margin-left: 0.75rem;
+    text-transform: uppercase;
+}
+
+.card-body .comment {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+a.owner {
+    font-weight: bold;
+}
+
+.card-footer {
+    border-top: 1px solid #ccc;
+}
+
+.card-footer .comment-form {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-form input[type="text"] {
+    border: none;
+    outline: none;
+}
+
+.comment-form input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    color: #0095f6;
+    font-weight: bold;
+}

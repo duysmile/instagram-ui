@@ -3,9 +3,25 @@
     width: 1.5rem;
     height: 1.5rem;
     overflow: hidden;
+    display: block;
 }
 
 .avatar img {
     width: 100%;
     height: 100%;
+}
+
+.avatar.medium {
+    width: 2rem;
+    height: 2rem;
+}
+
+.item-user {
+    display: flex;
+    align-items: center;
+}
+
+.item-user .username {
+    margin-left: 0.5rem;
+    font-weight: bold;
 }

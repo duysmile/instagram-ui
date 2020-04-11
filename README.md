@@ -1,7 +1,7 @@
 # instagram-ui
 Instagram
 
-[Demo](ui-insta-clone.netlify.com)
+[Demo](https://ui-insta-clone.netlify.com)
 
 ## Run on local machine
 1. Install static-server

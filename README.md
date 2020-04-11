@@ -1,5 +1,5 @@
 # instagram-ui
 Instagram
 
-Demo: ui-insta-clone.netlify.com
+[ui-insta-clone.netlify.com](Demo)
 
